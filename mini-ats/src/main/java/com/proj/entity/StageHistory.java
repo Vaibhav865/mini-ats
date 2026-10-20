@@ -1,9 +1,10 @@
-package com.proj.miniats.entity;
+package com.proj.entity;
 
-import com.proj.miniats.enums.Stage;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
+
+import com.proj.enums.Stage;
 
 import java.time.LocalDateTime;
 

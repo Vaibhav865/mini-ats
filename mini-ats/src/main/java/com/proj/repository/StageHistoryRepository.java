@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.proj.miniats.entity.StageHistory;
+import com.proj.entity.StageHistory;
 
 public interface StageHistoryRepository extends JpaRepository<StageHistory,Long> {
 	

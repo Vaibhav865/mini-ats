@@ -3,7 +3,7 @@ package com.proj.dto;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import com.proj.miniats.enums.Stage;
+import com.proj.enums.Stage;
 
 public record CandidateResponse(
 		Long id,

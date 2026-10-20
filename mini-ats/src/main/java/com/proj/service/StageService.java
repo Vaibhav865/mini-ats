@@ -11,12 +11,12 @@ import org.springframework.transaction.annotation.Transactional;
 import com.proj.dto.CandidateResponse;
 import com.proj.dto.StageChangeRequest;
 import com.proj.dto.StageHistoryResponse;
+import com.proj.entity.Candidate;
+import com.proj.entity.StageHistory;
+import com.proj.enums.Stage;
 import com.proj.exception.InvalidStageTransitionException;
 import com.proj.exception.ResourceNotFoundException;
 import com.proj.mapper.CandidateMapper;
-import com.proj.miniats.entity.Candidate;
-import com.proj.miniats.entity.StageHistory;
-import com.proj.miniats.enums.Stage;
 import com.proj.repository.CandidateRepository;
 import com.proj.repository.StageHistoryRepository;
 

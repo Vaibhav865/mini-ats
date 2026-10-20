@@ -1,4 +1,4 @@
-package com.proj.miniats.enums;
+package com.proj.enums;
 
 public enum Stage {
 	APPLIED,

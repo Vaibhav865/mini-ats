@@ -11,8 +11,8 @@ import org.springframework.stereotype.Component;
 import com.proj.dto.CandidateRequest;
 import com.proj.dto.CandidateResponse;
 import com.proj.dto.StageHistoryResponse;
-import com.proj.miniats.entity.Candidate;
-import com.proj.miniats.entity.StageHistory;
+import com.proj.entity.Candidate;
+import com.proj.entity.StageHistory;
 
 @Component
 public class CandidateMapper {

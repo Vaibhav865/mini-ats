@@ -1,6 +1,6 @@
 package com.proj.dto;
 
-import com.proj.miniats.enums.Stage;
+import com.proj.enums.Stage;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
